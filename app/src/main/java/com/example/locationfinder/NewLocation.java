@@ -26,6 +26,7 @@ public class NewLocation extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setDisplayShowHomeEnabled(true);
+            actionBar.setDisplayShowTitleEnabled(false);
         }
 
         DBHelper = new DBHelper(this);
